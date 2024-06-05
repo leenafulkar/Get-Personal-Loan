@@ -1,0 +1,106 @@
+.check_block {
+    padding: 72px 0px;
+}
+
+.li_style {
+    color: #1B1B1E;
+    font-size: 1vw;
+    font-family: Poppins;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+    padding-top: 16px;
+}
+.ul_style{
+    padding-left: 1rem;
+}
+
+.check_headding {
+    color: #1B1B1E;
+    font-size: 2.5vw;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.98px;
+}
+
+.check_row {
+    padding: 72px 0px;
+}
+
+@media only screen and (max-width:1600px) {
+    .li_style {
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .li_style {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .check_headding {
+        font-size: 3.2vw;
+    }
+    .li_style {
+        font-size: 1.7vw;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    .check_row {
+        padding: 0px 0px;
+    }
+
+    .check_block {
+        padding: 60px 0px;
+    }
+
+    .check_headding {
+        font-size: 3.7vw;
+    }
+    .li_style {
+        font-size: 2.2vw;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .check_headding {
+        font-size: 4.5vw;
+    }
+    .li_style {
+        font-size: 2.6vw;
+    }
+    .check_block {
+        padding: 40px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .check_headding {
+        font-size: 5vw;
+    }
+    .li_style {
+        font-size: 2.9vw;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .check_headding {
+        font-size: 6vw;
+    }
+    .li_style {
+        font-size: 3.8vw;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .check_headding {
+        font-size: 7.5vw;
+    }
+    .li_style {
+        font-size: 4.5vw;
+    }
+}

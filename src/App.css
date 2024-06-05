@@ -1,0 +1,120 @@
+/* body{
+  font-size: 100%;
+} */
+.App {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.error_color {
+  width: 100%;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #ff2b2b;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 10px;
+  text-align: start;
+  transition: all 0.2s ease;
+  margin-bottom: 5px;
+  padding: 5px 0px 20px 0px;
+}
+
+/* .pageWidth{
+  max-width: 1440px;
+  margin: auto;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* common css */
+.req_btn {
+  color: #FCFCFC;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.1px;
+  border: none;
+  border-radius: 18px;
+  background: #34B406;
+  padding: 8px 20px;
+}
+
+
+
+
+@media only screen and (max-width:991px) {
+  .req_main {
+    padding-top: 36px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .req_btn {
+    font-size: 16px;
+  }
+
+  .innercontainer {
+    margin: 0px 12px;
+  }
+}
+

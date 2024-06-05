@@ -1,0 +1,34 @@
+.form-faq-head {
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    /* background-color: aqua; */
+}
+
+.form-note {
+    margin: 20px 0px;
+}
+
+.side_desktop {
+    padding: 0px 15px;
+    border-right: 1px solid rgb(231, 192, 192);
+}
+
+.form-faq-desktop {
+    max-width: 336px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .form-faq-desktop {
+        display: none;
+    }
+    .side_desktop {
+        padding: 0px 28px;
+        border-right: none;
+    } 
+    .progress_bar_section{
+        width: 100%;
+    }
+}
+

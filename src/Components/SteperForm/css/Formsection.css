@@ -1,0 +1,16 @@
+.form-sections {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    /* min-width: 550px; */
+}
+
+@media screen and (max-width: 768px) {
+    .form-sections {
+        text-align: left;
+    }
+    .form-sections{
+        padding: 10px 0px;
+    }
+}

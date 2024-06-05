@@ -1,0 +1,140 @@
+/*side Section css  */
+.ques_sub_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(23, 26, 22, 0.6);
+}
+
+.head-txt-faq {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: rgba(23, 26, 22, 0.88);
+    margin-top: 64px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+.faq-que{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #85BB65;
+margin-bottom: 0px;
+padding: 12px 0px;
+}
+.custom-select-trigger{
+    /* margin-top: 32px; */
+}
+.radio-options{
+    /* margin-top: 32px; */
+}
+
+
+.sideFaq_mobilescreen .accordion-button::before{
+background-size: 50%;
+}
+.sideFaq_mobilescreen .accordion-body {
+    text-align: start;
+    padding:8px 0px ;
+}
+.sideFaq_mobilescreen .accordion-body p {
+margin-bottom: 0px;
+margin-left: 25px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+color: rgba(23, 26, 22, 0.72);
+}
+.sideFaq_mobilescreen .note{
+    text-align: start;
+    /* margin-left: 25px; */
+}
+.form-block-width{
+    /* width: 90%;
+    margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notename{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: rgba(23, 26, 22, 0.88);
+    /* margin-top: 20px; */
+    margin-bottom: 12px;
+    text-align: start; 
+}
+/* FAQ css */
+
+  
+
+  .sideFaq_mobilescreen  .accordion-button::before {
+    background-image: url(../assets/faq-arrow.svg);
+    transform: rotate(0deg);
+  }
+  
+  
+  .sideFaq_mobilescreen  .accordion-button:not(.collapsed)::before {
+    background-image: url(../assets/faq-arrow.svg);
+    transform: rotate(90deg);
+  }
+  
+  @media screen and (max-width: 991px) {
+    .form-block-width {
+        width: 100%;
+        margin: auto;
+    }
+    .field{
+        /* width: 100%; */
+    }
+    /* .form-block-width{
+display: unset;
+    } */
+  }
+
+
+
+
+@media screen and (max-width: 425px) {
+    .ques_sub_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+        letter-spacing: -0.005em;
+        color: #171A1699;
+    }
+    .form-block-width {
+        display: unset;
+    }
+    .radio-options{
+        margin-top: 8px;
+    }
+
+    .ques_head_title {
+        /* padding-bottom: 12px; */
+    }
+
+}

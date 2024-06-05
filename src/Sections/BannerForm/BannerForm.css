@@ -1,0 +1,211 @@
+.bannerForm {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 32px rgba(16, 38, 8, 0.32);
+    border-radius: 6px;
+    margin: 20px;
+    padding: 48px 48px;
+}
+
+.from_headding {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 38px */
+    letter-spacing: -0.02em;
+    color: #1B1B1E;
+}
+
+.form_field {
+    display: grid;
+}
+
+.form_field label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 18px;
+    color: #1B1B1E;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+
+.form_field input {
+    padding: 13px 16px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    border: none;
+}
+
+.form_field input:focus {
+    outline: none;
+}
+
+.bannerForm .requst_btn {
+    width: 100%;
+    padding: 13px 20px;
+    gap: 12px;
+    background: #34B406;
+    color: #fff;
+    border-radius: 18px;
+    margin-top: 12px;
+    border: none;
+}
+
+.banner_para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #737780;
+    padding-top: 12px;
+}
+
+.bottm_par_main {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.banner_bottompara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1B1B1E;
+}
+
+.span_dot {
+    width: 8px;
+    height: 8px;
+    background: #34B406;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 1800px) {
+    .form_field label {
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .form_field label {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .form_field label {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .form_field label {
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .form_field label {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .bannerForm {
+       margin: 0px;
+    }
+
+    .form_field input {
+        width: 100%;
+    }
+
+    .bannerForm .requst_btn {
+        padding: 13px 20px;
+    }
+
+    .form_field label {
+        font-size: 2vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerForm {
+   
+        padding: 30px 20px;
+    }
+
+  
+    .banner_para{
+        font-size: 11px;
+    }
+
+    .form_field label {
+        font-size: 2.4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form_field label {
+        font-size: 2.8vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .form_field label {
+        font-size: 3.2vw;
+    }
+
+    .bannerForm {
+        padding: 48px 20px;
+        margin: 0px -36px;
+        margin-bottom: -22px;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+   
+    .banner_para{
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .form_field label {
+        font-size: 4.3vw;
+    }
+    .banner_para {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .form_field label {
+        font-size: 3.2vw;
+    }
+    .bannerForm {
+     
+    }
+   
+    
+    
+
+    .bannerForm {
+        padding: 48px 20px;
+
+    }
+}

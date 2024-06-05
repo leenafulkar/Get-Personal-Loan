@@ -1,0 +1,157 @@
+.box_main {
+    /* padding: 72px 0px 0px 0px ; */
+}
+
+.box_main .box_img {
+    padding-bottom: 24px;
+}
+
+.whyus_hadding {
+    color: #1B1B1E;
+    font-size: 2.5vw;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.98px;
+    /* padding-top: 72px; */
+
+}
+
+.box_main .box_headding {
+    color: #1B1B1E;
+    font-size: 1.3vw;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.25px;
+    padding-bottom: 12px;
+}
+
+.box_main .box_par {
+    color: #737780;
+    font-size: 1.1vw;
+    font-family: Poppins;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+}
+
+.why_blockbg {
+    /* background: #FCFCFC;   */
+    /* margin-top: 40px; */
+    padding: 72px 0px;
+}
+
+.row_sty {
+    padding: 72px 0px;
+}
+
+
+
+@media only screen and (max-width:1400px) {
+    .box_main .box_headding {
+        font-size: 1.8vw;
+    }
+
+    .box_main .box_par {
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .whyus_hadding {
+        font-size: 3.2vw;
+    }
+
+    .box_main .box_headding {
+        font-size: 2vw;
+    }
+
+    .box_main .box_par {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .row_sty {
+        padding: 36px 0px;
+    }
+
+    .why_blockbg {
+        padding: 60px 0px;
+    }
+
+    .whyus_hadding {
+        font-size: 3.7vw;
+    }
+
+    .box_main .box_headding {
+        font-size: 2.4vw;
+    }
+    .box_main .box_par{
+        font-size: 1.9vw;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .box_main {
+        padding: 36px 0px 0px 0px;
+    }
+
+    .whyus_hadding {
+        font-size: 4.5vw;
+    }
+
+    .row_sty {
+        padding: 0px 0px;
+    }
+
+    .box_main .box_headding {
+        font-size: 3.2vw;
+    }
+    .box_main .box_par{
+        font-size: 2.5vw;
+    }
+    .why_blockbg {
+        padding: 40px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .whyus_hadding {
+        font-size: 5vw;
+    }
+
+    .box_main .box_headding {
+        font-size: 3.9vw;
+    }
+    .box_main .box_par{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .whyus_hadding {
+        font-size: 6vw;
+    }
+
+    .box_main .box_headding {
+        font-size: 4.9vw;
+    }
+    .box_main .box_par{
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .whyus_hadding {
+        font-size: 7.5vw;
+    }
+
+    .box_main .box_headding {
+        font-size: 6vw;
+    }
+    .box_main .box_par{
+        font-size: 4.2vw;
+    }
+}

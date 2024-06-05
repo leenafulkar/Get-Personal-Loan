@@ -1,0 +1,250 @@
+.field {
+  position: relative;
+  width: 382px;
+  margin: auto;
+  /* padding-top: 32px; */
+}
+
+.inputparent_marg {
+  padding: 10px
+}
+
+.input_sty {
+  font-family: 'Inter';
+  padding: 12px 20px;
+  /* width: 100%; */
+  background: #FFFFFF;
+  border: 1px solid #171A1629;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #171A16E0;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+*:focus {
+  outline: none;
+}
+div.radio-option{
+  margin-left: 0px;
+  /* position: relative; */
+}
+
+input:placeholder-shown+label {
+  cursor: text;
+  max-width: 66.66%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(0, 3.1rem) scale(1);
+  margin-left: 12px;
+  border-radius: 8px;
+  color: #171A16E0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 68px;
+}
+
+.lable_sty {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0C3D6F80;
+}
+
+/* .form input:focus {
+  outline: none !important;
+  border-color: #EB275F;
+  border-radius: 4px;
+} */
+
+label,
+input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+input.parsley-error+label,
+input:focus {
+  color: #1B1B1ECC !important;
+}
+
+/* input:focus {
+  outline: 0;
+  border: 0.5px solid #EB275F;
+  border-radius: 8px;
+}
+
+input:focus+label {
+  color: #EB275F !important;
+} */
+
+input:not(:placeholder-shown)+label,
+input:focus+label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+}
+
+.field input:not(:placeholder-shown)+label,
+input:focus+label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+  background: linear-gradient(to top, #ffffff 60%, transparent 40%);
+  padding: 0px 4px;
+  position: absolute;
+  left: 0px;
+  bottom: 43px;
+  margin-left: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #171A167A;
+}
+
+.radio-option input:not(:placeholder-shown)+label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+  background: linear-gradient(to top, #ffffff 60%, transparent 40%);
+  /* position: relative; */
+  padding: 15px;
+  left: 0px;
+  bottom: 43px;
+  margin-left: 12px;
+  border-radius: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #171A16;
+}
+
+.checkbox-option input:not(:placeholder-shown)+label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+  background: linear-gradient(to top, #ffffff 60%, transparent 40%);
+  position: relative;
+  padding: 15px;
+  left: 0px;
+  bottom: 43px;
+  margin-left: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/**
+* By default, the placeholder should be transparent. Also, it should 
+* inherit the transition.
+*/
+.field input::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+/**
+  * Show the placeholder when the input is focused.
+  */
+.field input:focus::-webkit-input-placeholder {
+  opacity: 0.25;
+
+}
+
+
+input::-moz-placeholder {
+  opacity: 0 !important;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0.4 !important;
+}
+
+
+
+/* slelect css */
+/* arrows */
+
+
+
+select.classic {
+  background-image:url(../assets/arrowDown.svg);
+  background-position:
+    calc(100% - 20px) calc(1em + 9px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size:15px;
+  background-repeat: no-repeat;
+  appearance: none;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+/* line-height: 20px; */
+  
+}
+
+
+.classic .optiondropdownOpen {
+    color: #000;
+    background-color: #ffffff !important;
+    border:5px solid red !important;
+    margin: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   }
+   .classic .optionDef {
+    color: #171A167A;
+    background-color: #ffffff;
+    opacity: 4;
+    /* border:5px solid red; */
+    margin: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   }
+
+   
+  
+
+
+
+@media screen and (max-width: 425px) {
+  .field {
+    width: 100%;
+  }
+
+  .error-message {
+    padding-left: 0px;
+  }
+
+  input:placeholder-shown+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: rgba(23, 26, 22, 0.88);
+  }
+}

@@ -1,0 +1,92 @@
+.infibg {
+    background:#fff;
+    padding: 30px;
+    padding-top: 30px;
+}
+
+.info_number {
+    /* color: #34B406; */
+    font-size: 1.3vw;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.25px;
+    
+}
+.info_para{
+    /* color: #1B1B1E; */
+    font-size: 1.1vw;
+    font-family: Poppins;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .info_number{
+     font-size: 1.6vw;
+    }
+    .info_para{
+        font-size: 1.4vw;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .info_number{
+     font-size: 1.9vw;
+    }
+    .info_para{
+        font-size: 1.7vw;
+
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .info_number{
+     font-size: 2.1vw;
+    }
+    .info_para{
+        font-size: 1.8vw;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info_number{
+     font-size: 2.6vw;
+    padding-top: 20px;
+
+    }
+    .info_para{
+        font-size: 2.1vw;
+    }
+    .infibg{
+        padding: 12px 8px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .info_number{
+     font-size: 3.1vw;
+    }
+    .info_para{
+        font-size: 2.4vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .info_number{
+     font-size: 3.4vw;
+    }
+    .info_para{
+        font-size: 2.8vw;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .info_number{
+     font-size: 4.2vw;
+    }
+    .info_para{
+        font-size: 3.7vw;
+    }
+}

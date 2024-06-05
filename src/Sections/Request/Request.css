@@ -1,0 +1,74 @@
+.req_blockbg {
+    background: #1B1B1E;
+    padding: 72px 0px;
+}
+
+.req_headding {
+    color: #FCFCFC;
+    font-size: 2.5vw;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.98px;
+}
+
+.req_para {
+    color: #FCFCFC;
+    font-size: 20px;
+    font-family: Poppins;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+    padding-top: 16px;
+}
+
+.req_main_btn {
+    padding-top: 72px;
+}
+
+@media only screen and (max-width:1200px) {
+    .req_headding {
+        font-size: 3.2vw;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .req_blockbg {
+        padding: 60px 0px;
+    }
+
+    .req_headding {
+        font-size: 3.7vw;
+    }
+
+    .req_para {
+        font-size: 16px;
+    }
+    .req_main_btn {
+        padding-top: 36px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .req_headding {
+        font-size: 4.5vw;
+    }
+    .req_blockbg {
+        padding: 40px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .req_headding {
+        font-size: 5vw;
+    }
+}
+@media only screen and (max-width:500px) {
+    .req_headding {
+        font-size: 6vw;
+    }
+}
+@media only screen and (max-width:375px) {
+    .req_headding {
+        font-size: 7.5vw;
+    }
+}
