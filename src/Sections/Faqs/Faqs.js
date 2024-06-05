@@ -37,7 +37,7 @@ const Faq = () => {
   };
 
   const handleMouseLeave = (index) => {
-    if (index != "notActive") {
+    if (index !== "notActive") {
       setIsHover(0);
     }
   };
