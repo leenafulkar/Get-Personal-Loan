@@ -75,7 +75,7 @@ const Footer = ({ webData }) => {
                       alt="footerlogo"
                       className="footerlogo"
                     /> */}
-                     <img src={loannavigatorlogo} alt="log" width={180} height={48} 
+                     <img src={loannavigatorlogo} alt="log" width={180} height={52} 
                       style={{borderRadius:'20px'}}
                       />
                   </div>
