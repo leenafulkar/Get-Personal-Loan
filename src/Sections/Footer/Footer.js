@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import { HomeContext } from "../../App";
 import Allpagemodal from "../../Components/modal/allpagemodal";
 import API from "../../service/Api";
+import loannavigatorlogo from '../../loannavigator.png'
 const Footer = ({ webData }) => {
   const data = useContext(HomeContext);
 
@@ -69,11 +70,14 @@ const Footer = ({ webData }) => {
               <div className="row">
                 <div className="col-lg-8 col-md-6 col-sm-12 col-xs-12 col-12">
                   <div>
-                    <img
+                    {/* <img
                       src={`static/assets/images/${logo}`}
                       alt="footerlogo"
                       className="footerlogo"
-                    />
+                    /> */}
+                     <img src={loannavigatorlogo} alt="log" width={180} height={48} 
+                      style={{borderRadius:'20px'}}
+                      />
                   </div>
                   <p className="footer_logopara" style={log_para_txt}>
                     {footerSectionContent.logoParaText}

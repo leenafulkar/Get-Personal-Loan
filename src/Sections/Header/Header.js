@@ -8,6 +8,7 @@ import Allpagemodal from "../../Components/modal/allpagemodal";
 import { useEffect } from "react";
 import API from "../../service/Api";
 import { useNavigate } from "react-router-dom";
+import loannavigatorlogo from '../../loannavigator.png'
 const Header = () => {
   // console.log("IP adderess",ip);
   const navigate = useNavigate();
@@ -120,9 +121,12 @@ const Header = () => {
                     /> */}
                     {/* Lend */}
                     <h1 className="header_logo">
-                      <img
-                        src={`static/assets/images/${logo}`}
+                      {/* <img
+                        src={`static/assets/images/${loannavigator}`}
                         alt="headerlogo"
+                      />  */}
+                      <img src={loannavigatorlogo} alt="log" width={180} height={48} 
+                      style={{borderRadius:'20px'}}
                       />
                     </h1>
                   </Navbar.Brand>
