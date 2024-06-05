@@ -48,5 +48,8 @@
   },
   "rules": {
     "no-unused-vars": "warn"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
